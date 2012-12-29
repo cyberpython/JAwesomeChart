@@ -96,6 +96,8 @@ For line charts we have to provide arrays with multiple values (otherwise the li
 ![Line chart #2](http://dl.dropbox.com/u/599926/images/06-line-chart.png)
 ![Line chart #3](http://dl.dropbox.com/u/599926/images/07-line-chart.png)
 
+Is that all there is? **NO** JAwesomechart is fully customizable - almost every aspect of the chart (strokes, fills, fonts etc) can be changed by calling the  renderer's or JAwesomechart object's setter methods.
+
 *Note: the screenshots were not taken using the code above, so the values displayed may not be the ones one would expect.*
 
 ## How to build
