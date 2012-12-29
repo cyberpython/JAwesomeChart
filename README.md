@@ -40,28 +40,28 @@ Finally, we have to render the chart. Normally, we would provide a `Graphics` ob
 
     JAwesomeChart.drawAndSaveChartAsImageFile(ac, "/home/cyberpython/temp/awesomechart/01-pie-chart.png");
     
-[!Pie chart](http://dl.dropbox.com/u/599926/images/01-pie-chart.png)
+![Pie chart](http://dl.dropbox.com/u/599926/images/01-pie-chart.png)
 
 What if we want an exploded pie? Piece of cake:
 
     renderer.setExplosionOffset(10);
     JAwesomeChart.drawAndSaveChartAsImageFile(ac, "/home/cyberpython/temp/awesomechart/02-pie-chart.png");
 
-[!Exploded pie chart](http://dl.dropbox.com/u/599926/images/02-pie-chart.png)
+![Exploded pie chart](http://dl.dropbox.com/u/599926/images/02-pie-chart.png)
 
 Or maybe a doughnut chart :
 
     renderer.setIsDoughnut(true);
     JAwesomeChart.drawAndSaveChartAsImageFile(ac, "/home/cyberpython/temp/awesomechart/03-pie-chart.png");
 
-[!Doughnut chart](http://dl.dropbox.com/u/599926/images/03-pie-chart.png)
+![Doughnut chart](http://dl.dropbox.com/u/599926/images/03-pie-chart.png)
   
 What about a column chart? Easy as well:
 
     ac.setRenderer(new ColumnChartRenderer());
     JAwesomeChart.drawAndSaveChartAsImageFile(ac, "/home/cyberpython/temp/awesomechart/04-column-chart.png");
 
-[!Column chart](http://dl.dropbox.com/u/599926/images/04-column-chart.png)
+![Column chart](http://dl.dropbox.com/u/599926/images/04-column-chart.png)
 
 For line charts we have to provide arrays with multiple values (otherwise the line will be just a point):
 
@@ -92,9 +92,9 @@ For line charts we have to provide arrays with multiple values (otherwise the li
     JAwesomeChart.drawAndSaveChartAsImageFile(ac2, "/home/cyberpython/temp/awesomechart/07-line-chart.png");
 
 
-[!Line chart #1](http://dl.dropbox.com/u/599926/images/05-line-chart.png)
-[!Line chart #2](http://dl.dropbox.com/u/599926/images/06-line-chart.png)
-[!Line chart #3](http://dl.dropbox.com/u/599926/images/07-line-chart.png)
+![Line chart #1](http://dl.dropbox.com/u/599926/images/05-line-chart.png)
+![Line chart #2](http://dl.dropbox.com/u/599926/images/06-line-chart.png)
+![Line chart #3](http://dl.dropbox.com/u/599926/images/07-line-chart.png)
 
 *Note: the screenshots were not taken using the code above, so the values displayed may not be the ones one would expect.*
 
